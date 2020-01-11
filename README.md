@@ -1,9 +1,9 @@
 # GOJEKHEMAT
-pkg update && upgrade
-pkg install git
-pkg install php
-git clone https://github.com/herutok/GOJEKHEMAT.git
-cd gojek
+<br>pkg update && upgrade
+<br>pkg install git
+<br>pkg install php
+<br>git clone https://github.com/herutok/GOJEKHEMAT.git
+<br>cd gojek
 
-#Run
-php herutok.php
+<br>#Run
+<br>php herutok.php
