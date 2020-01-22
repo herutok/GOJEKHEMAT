@@ -29,7 +29,7 @@ function change(){
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
         echo color("red","===========(REDEEM VOUCHER)===========");
-        echo "\n".color("yellow","!] Claim voc BELANJAHEMAT");
+        echo "\n".color("yellow","!] Claim voc PAKEGOJEK20");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -42,7 +42,7 @@ function change(){
         goto goride;
         }else{
         echo "\n".color("red","-] Message: ".$message);
-        echo "\n".color("yellow","!] Claim voc HERUTOKALT01");
+        echo "\n".color("yellow","!] Claim voc PAKEGOFOOD");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -56,7 +56,7 @@ function change(){
         goto goride;
         }else{
         echo "\n".color("red","-] Message: ".$messagealt01);
-        echo "\n".color("yellow","!] Claim voc HERUTOKALT02");
+        echo "\n".color("yellow","!] Claim voc PESENGOFOOD");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
