@@ -13,3 +13,7 @@
 <br>Untuk proses selanjutnya cukup ketik:
 <br>cd GOJEKHEMAT
 <br>php herutok.php
+
+<br>Jika ada update terbaru tinggal ketik:
+<br>cd GOJEKHEMAT
+<br>git pull
