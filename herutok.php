@@ -49,7 +49,7 @@ function change(){
         sleep(1);
         }
         sleep(3);
-        $alt01 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOOD021120B"}');
+        $alt01 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOOD022620A"}');
         $messagealt01 = fetch_value($alt01,'"message":"','"');
         if(strpos($alt01, 'Promo kamu sudah bisa dipakai.')){
         echo "\n".color("green","+] Message: ".$messagealt01);
